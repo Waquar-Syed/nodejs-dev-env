@@ -1,7 +1,7 @@
 # Test against this version of Node.js
 environmnet:
   matrix:
-    # node.js
+    # node.j
     - nodejs_version: "9"
 
 # Install scripts. {runs after repo cloning}
@@ -20,4 +20,4 @@ test_script:
   - npm test
 
 # Don't actually build.
-build: on
+build: off
